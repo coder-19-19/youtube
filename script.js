@@ -16,10 +16,10 @@ mp4.addEventListener("click", () => {
 
 
 const sendURL3 = (URL3) => {
-   window.location.href = `https://downtube.netlify.app/download3?URL=${URL3}`
+   window.location.href = `http://localhost:4000/download3?URL=${URL3}`
 }
 const sendURL4 = (URL4) => {
-    window.location.href = `https://downtube.netlify.app/download4?URL=${URL4}`
+    window.location.href = `https://downytb.herokuapp.com:4000/download4?URL=${URL4}`
 }
 
 mode.addEventListener("click", () => {
