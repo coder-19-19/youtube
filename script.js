@@ -19,7 +19,7 @@ const sendURL3 = (URL3) => {
    window.location.href = `http://localhost:30486/download3?URL=${URL3}`
 }
 const sendURL4 = (URL4) => {
-    window.location.href = `https://downytb.herokuapp.com:30486/download4?URL=${URL4}`
+    window.location.href = `http://localhost:30486/download4?URL=${URL4}`
 }
 
 mode.addEventListener("click", () => {
