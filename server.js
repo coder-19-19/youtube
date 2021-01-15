@@ -11,7 +11,7 @@ app.listen(port, () => {
     console.log(port)
 })
 
-app.get("/", (req,res) => {
+app.get("/download3", (req,res) => {
     let URL = req.query.URL
     res.header("Content-Disposition",'attachment; filename="music.mp3"')
 
