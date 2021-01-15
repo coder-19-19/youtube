@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: turquoise;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.container {
+    text-align: center;
+    margin: 40vh auto 0;
+}
+h1{
+    color:red;
+    margin-bottom: 10px;
+}
+input{
+    width: 350px;
+    height: 35px;
+    outline: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border:blue solid 3px;
+    padding: 3px 10px;
+}
+input::selection{
+    color:red;
+}
+
+button{
+    height: 35px;
+    background-color: rgb(190, 10, 10);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+button:hover{
+    background-color: red;
+}
+
+.input {
+    display: inline-block;
+    padding: 20px;
+}
+
+.links a {
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 70px;
+    padding: 5px;
+}
+i{
+    margin-right: 2px;
+}
+
+#mode{
+    background-color:rgba(0, 0, 0, 0.801);
+}
